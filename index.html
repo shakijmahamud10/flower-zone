@@ -5,9 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Zone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/779bd03c20.js" crossorigin="anonymous"></script>
+
+    <style>
+        .font-inter {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+        }
+    </style>
+
 </head>
 
 <body>
+
+    <header class="max-w-6xl mx-auto">
+        <div class="navbar bg-base-100 ">
+            <div class="navbar-start">
+                <img src="assets/logo.png" alt="">
+            </div>
+            <div class="navbar-end hidden lg:flex gap-5">
+                <ul class="menu menu-horizontal px-1 font-inter gap-2 font-medium">
+                    <li class="hover:text-orange-700 transition duration-200"><a>Home</a></li>
+                    <li class="hover:text-orange-700 transition duration-200"><a>Shop</a></li>
+                    <li class="hover:text-orange-700 transition duration-200"><a>About Us</a></li>
+                </ul>
+
+                <div class="hover:text-orange-700 transition duration-200">
+                    <a class="font-medium" href=""> <i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a>
+                </div>
+            </div>
+    </header>
 
 </body>
 
